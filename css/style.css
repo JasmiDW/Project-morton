@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-Light.ttf);
+        font-weight: 300;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-Medium.ttf);
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-SemiBold.ttf);
+        font-weight: 600;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-Bold.ttf);
+        font-weight: 700;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-ExtraBold.ttf);
+        font-weight: 800;
+        font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: left;
+}
+
+.main{
+    display: flex;
+}
+
+.box{
+    width:70%;
+    margin-right: 30px;
+}
+
+.sidebar{
+    width: 30%;
+    margin-top: 108px;
+    display: inline-block;
+    
+}
+
+header img{
+    width: 320px;
+    height: auto;
+}
+
+#top {
+    background-image: url(../img/bg-header.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex; 
+    align-items: center;     
+}
+
+.nav-header {
+    background-color:#999374;
+    height: 40px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+
+header nav a {
+    color:white;
+    text-decoration: none;
+    
+
+}
+
+header nav li {
+    margin-right: 10px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    float: left;
+}
+
+.nav-icones {
+    filter: invert(1);
+    
+}
+
+h1 {
+    font-family: 'OpenSans-Light', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #999374;
+    margin-top: 50px;
+}
+
+.intro{
+    margin-top: 30px;
+}
+
+.trait{
+    border-bottom: 1px solid #999374 ;
+    width : 700px;
+} 
+
+body aside img {
+    width: 100%;
+    border: 2px solid #999374;
+}
+
+footer{
+    background-color: #999374;
+    background-image: url(../img/bg-footer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25% ;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fond-image{
+    background-image: url(../img/bg-footer.png);
+    background-size: 100% ;
+
+}
+
+footer nav{
+    display: flex;
+}
+footer nav a{
+    color:white;
+    text-decoration: none;
+}
+
+footer nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.nav-info{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
